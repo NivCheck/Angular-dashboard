@@ -14,7 +14,6 @@ export class FormComponent {
     assetType: [null, Validators.required],
     quantity: [null, Validators.required],
     price: [null, Validators.required],
-    // address: [null, Validators.required],
     address2: null,
     date: [null, Validators.required],
     state: [null, Validators.required],
@@ -89,6 +88,6 @@ export class FormComponent {
   ];
 
   onSubmit(): void {
-    alert('Thanks!');
+    alert('form submitted');
   }
 }
