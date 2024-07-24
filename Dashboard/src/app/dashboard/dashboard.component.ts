@@ -34,7 +34,7 @@ export class DashboardComponent {
     yAxis: {
       min: 0,
       title: {
-        text: 'Total stocks consumption'
+        text: 'Asset Allocation'
       }
     },
     legend: {
@@ -59,7 +59,7 @@ export class DashboardComponent {
   
   lineChartOptions = {
     title: {
-      text: 'Yearly Earnings (logarithmic scale)'
+      text: 'Performance Metrics (Yearly Earnings)'
   },
 
   accessibility: {
